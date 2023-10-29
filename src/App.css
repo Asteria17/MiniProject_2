@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.logo {
+    width: 18rem;
+    height: 13vh;
+    padding-top: 0px;
+
+}
+
+.Nav {
+    margin-left: 5.8rem;
+}
