@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import {  } from '../components';
+import {} from '../components';
 import { Card } from '../components';
 
 export const Home = () => {
@@ -20,10 +20,13 @@ export const Home = () => {
   return (
     <main>
       <section className="bg-blue-900 max-w-7x1 mx-auto py-2 items-center rounded-lg">
-        <h1 className="text-4xl font-extrabold text-center
-        p-2 mb-5 	">Flash Sale</h1>
+        <h1
+          className="text-4xl font-extrabold text-center
+        p-2 mb-5 	"
+        >
+          Flash Sale
+        </h1>
         <div className="flex flex-wrap inline-grid grid-cols-4 gap-4">
-
           {products.map((data) => (
             <Card
               key={data.id}

@@ -6,14 +6,14 @@ export const Carousel = () => {
     <div>
       <div
         id="default-carousel"
-        className="relative w-full"
+        className="relative mt-12"
         data-carousel="slide"
       >
         {/* <!-- Carousel wrapper --> */}
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
           {/* <!-- Item 1 --> */}
           <div
-            className="hidden duration-700 ease-in-out"
+            className=" duration-700 ease-in-out"
             data-carousel-item
           >
             <img

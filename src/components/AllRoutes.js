@@ -4,20 +4,20 @@ import {
   Carousel,
   Products,
   Home,
-  ProductDetails,
+  ProductDetail,
   Search,
   PageNotFound,
-} from 'react';
+} from '../pages';
 
 export const AllRoutes = () => {
   return (
     <div>
       <Routes>
         <Route
-          path="/home"
+          path=""
           element={<Home />}
         />
-        
+<Route exact path="/" component={Search} />
         <Route
           path="/Products"
           element={<Products />}
@@ -28,23 +28,8 @@ export const AllRoutes = () => {
           element={<Search />}
         />
 
-        {/* <Route
-          path="/{category}"
-          element={<Search />}
-        /> */}
-
         <Route
-          path="product/:id"
-          element={<ProductDetails />}
-        />
-
-        <Route
-          path="search/title"
-          element={<Search />}
-        />
-        
-        <Route
-          path="product/:id"
+          path="/data"
           element={<Search />}
         />
         <Route
